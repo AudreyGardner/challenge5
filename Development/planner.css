@@ -1,0 +1,61 @@
+body,
+html {
+    margin: 0;
+    background-image: url("assets/pinkwave.PNG");
+    background-size: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: round;
+}
+#body {
+    display: block;
+}
+.container-fluid {
+    padding: 10px;
+    text-align: center;
+}
+
+#form {
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    display: block;
+    text-align: center;
+}
+#currentDate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;  
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: blue;
+    opacity: 1;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: blue;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: blue;
+}
+
+.time {
+    font-size: larger;
+    font-weight: 600;
+
+}
+.time-block {
+    text-align: center;
+    
+}
